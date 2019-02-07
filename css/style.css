@@ -1,18 +1,108 @@
-.container {
-    width:50%;
-    display:flex;
-    flex-wrap:wrap;
+#title {
+    text-align: center;
 }
-
-.tile {
-    width:23%;
-    padding:5%;
+#buttons {
+    display:inline-block;
 }
-
-.right {
-    border-right: 1px solid black;
+#board {
+    text-align:center;
 }
-
-.bottom {
-    border-bottom: 1px solid black;
+.b {
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    border: none;
+    box-shadow: 10px 8px 5px;
+    font-size: 25px;
+    margin: 5px;
+}
+#b1 {
+    animation-name: boxLight;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight {
+    10% {background-color: #ff0000;}
+    50% {background-color: #ff7575;}
+    100% {background-color: #ff7575;}
+}
+#b2 {
+    animation-name: boxLight2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight2 {
+    15% {background-color: #ffa100;}
+    55% {background-color: #ffca70;}
+    100% {background-color:  #ffca70;}
+}
+#b3 {
+    animation-name: boxLight3;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight3 {
+    20% {background-color: #f2ff00;}
+    60% {background-color: #f6fc8d;}
+    100% {background-color: #f6fc8d;}
+}
+#b4 {
+    animation-name: boxLight4;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight4 {
+    25% {background-color: #90ff00;}
+    65% {background-color: #cfff91;}
+    100% {background-color: #cfff91;}
+}
+#b5 {
+    animation-name: boxLight5;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight5 {
+    30% {background-color: #00ff6e;}
+    70% {background-color: #7efcb4;}
+    100% {background-color: #7efcb4;}
+}
+#b6 {
+    animation-name: boxLight6;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight6 {
+    35% {background-color: #00fff2;}
+    75% {background-color: #96fff9;}
+    100% {background-color: #96fff9;}
+}
+#b7 {
+    animation-name: boxLight7;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight7 {
+    40% {background-color: #0033ff;}
+    80% {background-color: #92a7fc;}
+    100% {background-color: #92a7fc;}
+}
+#b8 {
+    animation-name: boxLight8;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight8 {
+    45% {background-color: #9000ff;}
+    85% {background-color: #d093ff;}
+    100% {background-color: #d093ff;}
+}
+#b9 {
+    animation-name: boxLight9;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes boxLight9 {
+    50% {background-color: #ff00e5;}
+    90% {background-color: #ff7ff1;}
+    100% {background-color: #ff7ff1;}
 }
